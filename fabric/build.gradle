@@ -19,7 +19,6 @@ dependencies {
     modImplementation libs.fabricApi
 }
 
-apply from: rootProject.file('repositories.gradle')
 apply from: 'dependencies.gradle'
 
 loom {

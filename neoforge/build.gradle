@@ -41,7 +41,6 @@ neoForge {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
-apply from: rootProject.file('repositories.gradle')
 apply from: 'dependencies.gradle'
 
 tasks.register('curseforge', TaskPublishCurseForge) {

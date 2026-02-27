@@ -17,7 +17,6 @@ dependencies {
     compileOnly libs.mixin
 }
 
-apply from: rootProject.file('repositories.gradle')
 apply from: 'dependencies.gradle'
 
 configurations {

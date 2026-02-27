@@ -38,6 +38,42 @@ repositories {
         )
         filter { includeGroup('org.parchmentmc.data') }
     }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'Twelve Iterations'
+                url = 'https://maven.twelveiterations.com/repository/maven-public/'
+            }
+        }
+        filter { includeGroup('net.blay09.mods') }
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'CurseMaven'
+                url = 'https://www.cursemaven.com'
+            }
+        }
+        filter { includeGroup('curse.maven') }
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'BlameJared'
+                url = 'https://maven.blamejared.com'
+            }
+        }
+        filter { includeGroup('mezz.jei') }
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'GeckoLib'
+                url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+            }
+        }
+        filter { includeGroup('software.bernie.geckolib') }
+    }
 }
 
 ['apiElements', 'runtimeElements', 'sourcesElements', 'javadocElements'].each { variant ->

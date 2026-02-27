@@ -12,6 +12,7 @@ forge = "61.1.0"
 fabricApi = "0.141.3+1.21.11"
 fabricLoader = "0.18.4"
 kuma = "21.11.12"
+geckolib = "5.4.3"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
@@ -27,6 +28,11 @@ kumaCommon = { module = "net.blay09.mods:kuma-api-common", version.ref = "kuma" 
 kumaNeoForge = { module = "net.blay09.mods:kuma-api-neoforge", version.ref = "kuma" }
 kumaForge = { module = "net.blay09.mods:kuma-api-forge", version.ref = "kuma" }
 kumaFabric = { module = "net.blay09.mods:kuma-api-fabric", version.ref = "kuma" }
+
+geckolibCommon = { module = "software.bernie.geckolib:geckolib-common-1.21.11", version.ref = "geckolib" }
+geckolibNeoForge = { module = "software.bernie.geckolib:geckolib-neoforge-1.21.11", version.ref = "geckolib" }
+geckolibForge = { module = "software.bernie.geckolib:geckolib-forge-1.21.11", version.ref = "geckolib" }
+geckolibFabric = { module = "software.bernie.geckolib:geckolib-fabric-1.21.11", version.ref = "geckolib" }
 
 neoForm = { module = "net.neoforged:neoform", version.ref = "neoForm" }
 neoForge = { module = "net.neoforged:neoforge", version.ref = "neoForge" }
